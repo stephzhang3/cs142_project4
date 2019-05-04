@@ -17,6 +17,6 @@ if (cs142models === undefined) {
 cs142models.exampleModel = function() {
   return {
     name: "Stephanie Zhang",
-    motto: " Learning React is so hard and I want to cryy"
+    motto: "Working on React!"
   };
 };

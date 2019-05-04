@@ -11,7 +11,7 @@ class Header extends React.Component {
           <p className="affiliation">Stanford University</p>
           <p className="affiliation">CS142: Project 4</p>
         </div>
-        <div className="headerPhoto">
+        <div className="headerDesign">
           <div className="square1" />
           <div className="square2" />
         </div>

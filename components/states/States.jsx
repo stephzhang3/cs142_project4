@@ -50,18 +50,21 @@ class States extends React.Component {
           onChange={this.handleChangeBound}
         />
         <ul> {this.state.filterBy} </ul>
-        <div>
+        <ul>
           {this.state.statesArray.map(currState => {
             return (
               currState
                 .toUpperCase()
                 .includes(this.state.filterBy.toUpperCase()) && (
-                <ul key={currState}> {currState} </ul>
+                <li key={currState} className="cs142-states-state">
+                  {" "}
+                  {currState}{" "}
+                </li>
               )
             );
           })}
-          {!found && <ul> No states found </ul>}
-        </div>
+          {!found && <li> No states found </li>}
+        </ul>
       </div>
     );
   }
