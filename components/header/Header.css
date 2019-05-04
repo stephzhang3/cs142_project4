@@ -1,0 +1,27 @@
+.header {
+  align-items: flex-start;
+  background-color: #e8fdf5;
+  padding: 60px;
+  flex-direction: row;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.headerText {
+  display: inline-block;
+  font-family: Arial;
+  position: relative;
+  padding: 10px;
+}
+
+.headerPhoto {
+  display: inline-block;
+  align-content: flex-end;
+  padding-left: 40px;
+}
+
+.square1 {
+  height: 50px;
+  width: 50px;
+  background-color: #bcebd4;
+}
